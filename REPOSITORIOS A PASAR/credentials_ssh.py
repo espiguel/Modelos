@@ -1,0 +1,11 @@
+import os
+os.environ['SSH_HOST'] = 'bastion.k8s.uell.com.ar'
+os.environ['SSH_USERNAME'] = 'ubuntu'
+os.environ['SSH_PRIVATE_KEY_PASSWORD'] = 'test'
+os.environ['SSH_PRIVETE_KEY'] = 'C:/Users/Usuario.W01234/Desktop/private-key.key.ppk'
+os.environ['DB_HOST'] = 'uell-uell-prod-rdsdbs-1qggdnxs8gp3y-rdscluster-1img55lgdch2v.cluster-ro-cvp1l7phfbcf.us-east-1.rds.amazonaws.com'
+os.environ['DB_NAME'] = 'uell'
+os.environ['DB_USERNAME'] = 'dbMasterUser'
+os.environ['DB_PASSWORD'] = 'eim1gieNgaeheeng'
+os.environ['DB_PORT'] = '5432'
+os.environ['FETCH_SIZE'] = '1000'
